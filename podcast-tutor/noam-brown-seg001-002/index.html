@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>播客英语私教 MVP</title><link rel="stylesheet" href="style.css"></head><body>
+<main><h1>播客英语私教</h1><p id="title"></p><p id="notice" role="status"></p>
+<audio id="audio" controls preload="metadata"></audio><p id="position"></p>
+<label>讲解方向 <select id="mode"><option value="balanced">综合</option><option value="vocab">词汇</option><option value="grammar">语法</option><option value="ideas">观点</option></select></label>
+<button id="original">回到本段原声</button><section><h2>当前原文</h2><p id="transcript"></p><p id="uncertain"></p><h2>讲解</h2><div id="lesson"></div></section>
+<section><h2>暂停提问</h2><button id="ask">暂停并提问</button><form id="qa" hidden><label>问题（不限当前讲解方向）<textarea id="question" required></textarea></label><button type="submit">记录问题</button><button type="button" id="resume">从暂停位置续播</button><p id="answer"></p></form><ul id="questions"></ul></section>
+<section><h2>保存标注</h2><p id="selected">默认标注当前段；点击原文可选择单词。</p><select id="tag"><option value="unknown_word">生词</option><option value="missed_audio">没听出来</option><option value="not_understood">没理解</option><option value="want_to_use">想学会用</option><option value="favorite">收藏</option></select><input id="note" placeholder="备注"><button id="mark">保存标注</button><ul id="marks"></ul><button id="export">导出标注与问题</button></section>
+<details><summary>载入其它课程</summary><p>先选 episode.json，再选对应 course.mp3；文件本身不会保存到浏览器。</p><label>课程 JSON <input id="jsonfile" type="file" accept=".json"></label><label>课程 MP3 <input id="audiofile" type="file" accept="audio/*"></label></details>
+</main><script src="demo-data.js"></script><script src="state.js"></script><script src="app.js"></script></body></html>
