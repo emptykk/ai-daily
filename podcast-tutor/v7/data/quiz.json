@@ -1,0 +1,1291 @@
+{
+  "version": 1,
+  "episode_id": "ep-2ea33b472344d5f8-seg001-002",
+  "source_sha256": "1307ca841836a310e3cbea61175cfbf68f4e9f5e2240742f63e1a19c49fcfb47",
+  "review_status": "pending_independent_review",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-001-a1"
+      ],
+      "prompt": "主持人用 Speaking of which，主要在做什么？",
+      "options": [
+        "顺着刚聊的内容衔接话题",
+        "宣布结束采访",
+        "表示反对嘉宾",
+        "要求对方重复"
+      ],
+      "answer_index": 0,
+      "explanation": "它把前面谈到的多智能体研究，接到团队上周公布的具体成果。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s04",
+        "start": 10.74,
+        "end": 22.34,
+        "text_en": "Speaking of which, you guys announced last week that you solved one of the Millennium Prize Problems with a system of 10,000 different AI agents that spent 130 billion tokens over 88 hours.",
+        "word_ids": [
+          "w-00034",
+          "w-00035",
+          "w-00036",
+          "w-00037",
+          "w-00038",
+          "w-00039",
+          "w-00040",
+          "w-00041",
+          "w-00042",
+          "w-00043",
+          "w-00044",
+          "w-00045",
+          "w-00046",
+          "w-00047",
+          "w-00048",
+          "w-00049",
+          "w-00050",
+          "w-00051",
+          "w-00052",
+          "w-00053",
+          "w-00054",
+          "w-00055",
+          "w-00056",
+          "w-00057",
+          "w-00058",
+          "w-00059",
+          "w-00060",
+          "w-00061",
+          "w-00062",
+          "w-00063",
+          "w-00064",
+          "w-00065",
+          "w-00066"
+        ]
+      }
+    },
+    {
+      "id": "q02",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-001-a2"
+      ],
+      "prompt": "in a similar position 在这里强调什么？",
+      "options": [
+        "嘉宾和主持人坐在同一位置",
+        "嘉宾现在与自己过去处在相似的判断位置",
+        "嘉宾正在应聘类似岗位",
+        "两个模型参数完全相同"
+      ],
+      "answer_index": 1,
+      "explanation": "主持人把嘉宾过去判断推理模型能力的位置，类比到今天判断未来能力的位置。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s07",
+        "start": 38.64,
+        "end": 47.9,
+        "text_en": "I feel like you’re in a similar position now to help us understand what future capabilities will look like, given the enormous scaling of agent sizes that we can do right now.",
+        "word_ids": [
+          "w-00132",
+          "w-00133",
+          "w-00134",
+          "w-00135",
+          "w-00136",
+          "w-00137",
+          "w-00138",
+          "w-00139",
+          "w-00140",
+          "w-00141",
+          "w-00142",
+          "w-00143",
+          "w-00144",
+          "w-00145",
+          "w-00146",
+          "w-00147",
+          "w-00148",
+          "w-00149",
+          "w-00150",
+          "w-00151",
+          "w-00152",
+          "w-00153",
+          "w-00154",
+          "w-00155",
+          "w-00156",
+          "w-00157",
+          "w-00158",
+          "w-00159",
+          "w-00160",
+          "w-00161",
+          "w-00162",
+          "w-00163"
+        ]
+      }
+    },
+    {
+      "id": "q03",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-001-a3"
+      ],
+      "prompt": "allow us to see into the future 在这段的意思是？",
+      "options": [
+        "保证每次预测都正确",
+        "观看未来的真实录像",
+        "帮助前瞻判断模型未来的能力",
+        "要求模型给出日期"
+      ],
+      "answer_index": 2,
+      "explanation": "本段讨论由推理投入推测未来能力，不是保证预言成功。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s05",
+        "start": 22.74,
+        "end": 33.76,
+        "text_en": "One of the reasons I’m interested in talking to you is that you were among the first people, maybe two or three years ago, who were thinking about how the reasoning models would allow us to see into the future.",
+        "word_ids": [
+          "w-00067",
+          "w-00068",
+          "w-00069",
+          "w-00070",
+          "w-00071",
+          "w-00072",
+          "w-00073",
+          "w-00074",
+          "w-00075",
+          "w-00076",
+          "w-00077",
+          "w-00078",
+          "w-00079",
+          "w-00080",
+          "w-00081",
+          "w-00082",
+          "w-00083",
+          "w-00084",
+          "w-00085",
+          "w-00086",
+          "w-00087",
+          "w-00088",
+          "w-00089",
+          "w-00090",
+          "w-00091",
+          "w-00092",
+          "w-00093",
+          "w-00094",
+          "w-00095",
+          "w-00096",
+          "w-00097",
+          "w-00098",
+          "w-00099",
+          "w-00100",
+          "w-00101",
+          "w-00102",
+          "w-00103",
+          "w-00104",
+          "w-00105",
+          "w-00106"
+        ]
+      }
+    },
+    {
+      "id": "q04",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-001-a4"
+      ],
+      "prompt": "what became o1 用什么来介绍此前的工作？",
+      "options": [
+        "说明项目一直没有变化",
+        "比较两个无关项目",
+        "表明主持人不知道项目名称",
+        "用后来形成的成果指代此前的项目"
+      ],
+      "answer_index": 3,
+      "explanation": "what became X 用后来成为X的结果，回指当初尚未成型的工作。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s02",
+        "start": 3.94,
+        "end": 7.92,
+        "text_en": "He was one of the foundational contributors to what became o1 and the reasoning models.",
+        "word_ids": [
+          "w-00013",
+          "w-00014",
+          "w-00015",
+          "w-00016",
+          "w-00017",
+          "w-00018",
+          "w-00019",
+          "w-00020",
+          "w-00021",
+          "w-00022",
+          "w-00023",
+          "w-00024",
+          "w-00025",
+          "w-00026",
+          "w-00027"
+        ]
+      }
+    },
+    {
+      "id": "q05",
+      "type": "comprehension",
+      "annotation_ids": [
+        "seg-001-a5"
+      ],
+      "prompt": "按主持人在第1段的介绍，团队成果用了哪组规模数字？",
+      "options": [
+        "一万个不同AI智能体，1300亿token，88小时",
+        "一百个智能体，130亿token，8小时",
+        "一个智能体，1亿token，88分钟",
+        "一万个智能体，13亿token，8分钟"
+      ],
+      "answer_index": 0,
+      "explanation": "这是主持人在该句介绍成果时给出的数字，只考对话内容，不代表我们独立核验了成果。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s04",
+        "start": 10.74,
+        "end": 22.34,
+        "text_en": "Speaking of which, you guys announced last week that you solved one of the Millennium Prize Problems with a system of 10,000 different AI agents that spent 130 billion tokens over 88 hours.",
+        "word_ids": [
+          "w-00034",
+          "w-00035",
+          "w-00036",
+          "w-00037",
+          "w-00038",
+          "w-00039",
+          "w-00040",
+          "w-00041",
+          "w-00042",
+          "w-00043",
+          "w-00044",
+          "w-00045",
+          "w-00046",
+          "w-00047",
+          "w-00048",
+          "w-00049",
+          "w-00050",
+          "w-00051",
+          "w-00052",
+          "w-00053",
+          "w-00054",
+          "w-00055",
+          "w-00056",
+          "w-00057",
+          "w-00058",
+          "w-00059",
+          "w-00060",
+          "w-00061",
+          "w-00062",
+          "w-00063",
+          "w-00064",
+          "w-00065",
+          "w-00066"
+        ]
+      }
+    },
+    {
+      "id": "q06",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-001-a6"
+      ],
+      "prompt": "scale up inference compute 里的 scale up 是什么意思？",
+      "options": [
+        "缩短所有推理时间",
+        "扩大推理时的计算投入",
+        "删掉推理过程",
+        "保持计算规模不变"
+      ],
+      "answer_index": 1,
+      "explanation": "讲解点把 scale up 解释为扩大规模；此处扩大的对象是推理计算。",
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s06",
+        "start": 33.9,
+        "end": 38.4,
+        "text_en": "Because if you scale up inference compute, you can see what the base capabilities of the models will be a few years in the future.",
+        "word_ids": [
+          "w-00107",
+          "w-00108",
+          "w-00109",
+          "w-00110",
+          "w-00111",
+          "w-00112",
+          "w-00113",
+          "w-00114",
+          "w-00115",
+          "w-00116",
+          "w-00117",
+          "w-00118",
+          "w-00119",
+          "w-00120",
+          "w-00121",
+          "w-00122",
+          "w-00123",
+          "w-00124",
+          "w-00125",
+          "w-00126",
+          "w-00127",
+          "w-00128",
+          "w-00129",
+          "w-00130",
+          "w-00131"
+        ]
+      }
+    },
+    {
+      "id": "listen-a2",
+      "type": "listening_choice",
+      "annotation_ids": [
+        "seg-001-a3"
+      ],
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s05",
+        "start": 22.74,
+        "end": 33.76,
+        "text_en": "One of the reasons I’m interested in talking to you is that you were among the first people, maybe two or three years ago, who were thinking about how the reasoning models would allow us to see into the future.",
+        "word_ids": [
+          "w-00067",
+          "w-00068",
+          "w-00069",
+          "w-00070",
+          "w-00071",
+          "w-00072",
+          "w-00073",
+          "w-00074",
+          "w-00075",
+          "w-00076",
+          "w-00077",
+          "w-00078",
+          "w-00079",
+          "w-00080",
+          "w-00081",
+          "w-00082",
+          "w-00083",
+          "w-00084",
+          "w-00085",
+          "w-00086",
+          "w-00087",
+          "w-00088",
+          "w-00089",
+          "w-00090",
+          "w-00091",
+          "w-00092",
+          "w-00093",
+          "w-00094",
+          "w-00095",
+          "w-00096",
+          "w-00097",
+          "w-00098",
+          "w-00099",
+          "w-00100",
+          "w-00101",
+          "w-00102",
+          "w-00103",
+          "w-00104",
+          "w-00105",
+          "w-00106"
+        ]
+      },
+      "explanation": "原句为 you were among the first people … who were thinking about how the reasoning models would allow us to see into the future。是「最早一批人之一」而非「唯一」（C 错）；see into the future 指对未来能力作前瞻判断，不是神秘预言（D 错）；原文没提具体产品日期（B 错）。",
+      "prompt": "主持人为什么想找这位嘉宾聊？",
+      "options": [
+        "嘉宾两三年前就在思考「推理模型如何让人提前看到未来的能力」。",
+        "嘉宾准确预测了某款产品发布的具体日期。",
+        "嘉宾是唯一想到这一点的人。",
+        "嘉宾能真的预知未来事件。"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "listen-b2",
+      "type": "listening_dictation",
+      "annotation_ids": [
+        "seg-001-a1",
+        "seg-001-a5"
+      ],
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s04",
+        "start": 10.74,
+        "end": 22.34,
+        "text_en": "Speaking of which, you guys announced last week that you solved one of the Millennium Prize Problems with a system of 10,000 different AI agents that spent 130 billion tokens over 88 hours.",
+        "word_ids": [
+          "w-00034",
+          "w-00035",
+          "w-00036",
+          "w-00037",
+          "w-00038",
+          "w-00039",
+          "w-00040",
+          "w-00041",
+          "w-00042",
+          "w-00043",
+          "w-00044",
+          "w-00045",
+          "w-00046",
+          "w-00047",
+          "w-00048",
+          "w-00049",
+          "w-00050",
+          "w-00051",
+          "w-00052",
+          "w-00053",
+          "w-00054",
+          "w-00055",
+          "w-00056",
+          "w-00057",
+          "w-00058",
+          "w-00059",
+          "w-00060",
+          "w-00061",
+          "w-00062",
+          "w-00063",
+          "w-00064",
+          "w-00065",
+          "w-00066"
+        ]
+      },
+      "explanation": "听数字是本题难点：10,000 different AI agents 与 130 billion tokens over 88 hours。请逐字核对数字写法。",
+      "prompt": "听原句，补全关键词。",
+      "text_with_blanks": "Speaking of which, you guys announced last week that you solved one of the Millennium Prize Problems with a system of ______ different AI agents that spent ______ tokens over 88 hours.",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "10,000"
+          ]
+        },
+        {
+          "id": "blank-2",
+          "answers": [
+            "130 billion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-c1",
+      "type": "listening_expression",
+      "annotation_ids": [
+        "seg-001-a1",
+        "seg-001-a5"
+      ],
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s04",
+        "start": 10.74,
+        "end": 22.34,
+        "text_en": "Speaking of which, you guys announced last week that you solved one of the Millennium Prize Problems with a system of 10,000 different AI agents that spent 130 billion tokens over 88 hours.",
+        "word_ids": [
+          "w-00034",
+          "w-00035",
+          "w-00036",
+          "w-00037",
+          "w-00038",
+          "w-00039",
+          "w-00040",
+          "w-00041",
+          "w-00042",
+          "w-00043",
+          "w-00044",
+          "w-00045",
+          "w-00046",
+          "w-00047",
+          "w-00048",
+          "w-00049",
+          "w-00050",
+          "w-00051",
+          "w-00052",
+          "w-00053",
+          "w-00054",
+          "w-00055",
+          "w-00056",
+          "w-00057",
+          "w-00058",
+          "w-00059",
+          "w-00060",
+          "w-00061",
+          "w-00062",
+          "w-00063",
+          "w-00064",
+          "w-00065",
+          "w-00066"
+        ]
+      },
+      "explanation": "地道过渡语，用于「顺着刚聊到的话题往下接」，约等于「说到这个」。原句即以 Speaking of which 开头。",
+      "prompt": "听原句，补全表达。",
+      "text_with_blanks": "______, you guys announced last week that you solved one of the Millennium Prize Problems…",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "Speaking of which"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-c2",
+      "type": "listening_expression",
+      "annotation_ids": [
+        "seg-001-a2"
+      ],
+      "source": {
+        "segment_id": "seg-001",
+        "sentence_id": "seg-001-s07",
+        "start": 38.64,
+        "end": 47.9,
+        "text_en": "I feel like you’re in a similar position now to help us understand what future capabilities will look like, given the enormous scaling of agent sizes that we can do right now.",
+        "word_ids": [
+          "w-00132",
+          "w-00133",
+          "w-00134",
+          "w-00135",
+          "w-00136",
+          "w-00137",
+          "w-00138",
+          "w-00139",
+          "w-00140",
+          "w-00141",
+          "w-00142",
+          "w-00143",
+          "w-00144",
+          "w-00145",
+          "w-00146",
+          "w-00147",
+          "w-00148",
+          "w-00149",
+          "w-00150",
+          "w-00151",
+          "w-00152",
+          "w-00153",
+          "w-00154",
+          "w-00155",
+          "w-00156",
+          "w-00157",
+          "w-00158",
+          "w-00159",
+          "w-00160",
+          "w-00161",
+          "w-00162",
+          "w-00163"
+        ]
+      },
+      "explanation": "in a similar position＝处在（与某人）相似的位置／局面；这里把嘉宾当下的处境与他当年做推理模型时作类比。",
+      "prompt": "听原句，补全表达。",
+      "text_with_blanks": "I feel like you’re ______ now to help us understand what future capabilities will look like…",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "in a similar position"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-002-a1"
+      ],
+      "prompt": "嘉宾先说 The way I think about it，是在提示什么？",
+      "options": [
+        "后面只能引用别人的结论",
+        "希望立刻结束这个问题",
+        "接下来给出自己的思考框架",
+        "表示自己完全没想过这个问题"
+      ],
+      "answer_index": 2,
+      "explanation": "这个开场把后面的坐标图和权衡标为嘉宾的理解方式。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s01",
+        "start": 48.32,
+        "end": 64.62,
+        "text_en": "The way I think about it, when you plot the performance of these reasoning models with test-time compute on the x-axis and performance on basically any reasoning benchmark on the y-axis, you see a very clear pattern where the longer these models take to think about their answer, the better they do.",
+        "word_ids": [
+          "w-00164",
+          "w-00165",
+          "w-00166",
+          "w-00167",
+          "w-00168",
+          "w-00169",
+          "w-00170",
+          "w-00171",
+          "w-00172",
+          "w-00173",
+          "w-00174",
+          "w-00175",
+          "w-00176",
+          "w-00177",
+          "w-00178",
+          "w-00179",
+          "w-00180",
+          "w-00181",
+          "w-00182",
+          "w-00183",
+          "w-00184",
+          "w-00185",
+          "w-00186",
+          "w-00187",
+          "w-00188",
+          "w-00189",
+          "w-00190",
+          "w-00191",
+          "w-00192",
+          "w-00193",
+          "w-00194",
+          "w-00195",
+          "w-00196",
+          "w-00197",
+          "w-00198",
+          "w-00199",
+          "w-00200",
+          "w-00201",
+          "w-00202",
+          "w-00203",
+          "w-00204",
+          "w-00205",
+          "w-00206",
+          "w-00207",
+          "w-00208",
+          "w-00209",
+          "w-00210",
+          "w-00211",
+          "w-00212",
+          "w-00213",
+          "w-00214",
+          "w-00215"
+        ]
+      }
+    },
+    {
+      "id": "q08",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-002-a2"
+      ],
+      "prompt": "It’s the same thing with people 在这里怎样连接上下文？",
+      "options": [
+        "把人和模型说成完全相同",
+        "否认模型思考时间的作用",
+        "转而谈论团队招聘",
+        "用人的考试表现类比模型思考时间"
+      ],
+      "answer_index": 3,
+      "explanation": "嘉宾把模型想得更久表现更好，接到人用更多考试时间的熟悉情境。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s03",
+        "start": 66.02,
+        "end": 66.94,
+        "text_en": "It’s the same thing with people.",
+        "word_ids": [
+          "w-00222",
+          "w-00223",
+          "w-00224",
+          "w-00225",
+          "w-00226",
+          "w-00227"
+        ]
+      }
+    },
+    {
+      "id": "q09",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-002-a3"
+      ],
+      "prompt": "hit a latency bottleneck 在这段指出什么障碍？",
+      "options": [
+        "继续增加思考时间会碰到等待延迟瓶颈",
+        "计算结果一定错误",
+        "模型无法理解任何上下文",
+        "团队人数永远不能增加"
+      ],
+      "answer_index": 0,
+      "explanation": "嘉宾先说多想通常更好，再指出用户不愿无限等待，延迟构成限制。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s08",
+        "start": 86.78,
+        "end": 90.1,
+        "text_en": "The problem is that as you push that further and further, you hit a latency bottleneck.",
+        "word_ids": [
+          "w-00297",
+          "w-00298",
+          "w-00299",
+          "w-00300",
+          "w-00301",
+          "w-00302",
+          "w-00303",
+          "w-00304",
+          "w-00305",
+          "w-00306",
+          "w-00307",
+          "w-00308",
+          "w-00309",
+          "w-00310",
+          "w-00311",
+          "w-00312"
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "vocab",
+      "annotation_ids": [
+        "seg-002-a4"
+      ],
+      "prompt": "ruling out different possibilities 表示模型在做什么？",
+      "options": [
+        "把所有可能性都保留不动",
+        "排除不同的可能性",
+        "随机选中一个答案",
+        "直接重复之前的答案"
+      ],
+      "answer_index": 1,
+      "explanation": "rule out 是排除可能性；这里位于模型思考时的多种活动之中。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s07",
+        "start": 77.68,
+        "end": 85.8,
+        "text_en": "They’ll spend that time doing this monologue to themselves, figuring things out, going through different cases, ruling out different possibilities, building on some of their previous discoveries.",
+        "word_ids": [
+          "w-00270",
+          "w-00271",
+          "w-00272",
+          "w-00273",
+          "w-00274",
+          "w-00275",
+          "w-00276",
+          "w-00277",
+          "w-00278",
+          "w-00279",
+          "w-00280",
+          "w-00281",
+          "w-00282",
+          "w-00283",
+          "w-00284",
+          "w-00285",
+          "w-00286",
+          "w-00287",
+          "w-00288",
+          "w-00289",
+          "w-00290",
+          "w-00291",
+          "w-00292",
+          "w-00293",
+          "w-00294",
+          "w-00295",
+          "w-00296"
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "type": "comprehension",
+      "annotation_ids": [
+        "seg-002-a5"
+      ],
+      "prompt": "嘉宾用SAT考试的例子想说明什么？",
+      "options": [
+        "任何考试只需五分钟",
+        "五小时一定能答对全部题",
+        "给更多思考时间，表现通常会更好",
+        "模型表现与思考时间无关"
+      ],
+      "answer_index": 2,
+      "explanation": "他说五分钟做完整套考试表现不会好，五小时大概会好得多，以此解释推理时间与表现的关系。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s04",
+        "start": 67.6,
+        "end": 72.3,
+        "text_en": "If you’re taking the SATs and you have five minutes to go through the entire exam, you’re not going to do very well.",
+        "word_ids": [
+          "w-00228",
+          "w-00229",
+          "w-00230",
+          "w-00231",
+          "w-00232",
+          "w-00233",
+          "w-00234",
+          "w-00235",
+          "w-00236",
+          "w-00237",
+          "w-00238",
+          "w-00239",
+          "w-00240",
+          "w-00241",
+          "w-00242",
+          "w-00243",
+          "w-00244",
+          "w-00245",
+          "w-00246",
+          "w-00247",
+          "w-00248",
+          "w-00249",
+          "w-00250"
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "type": "comprehension",
+      "annotation_ids": [
+        "seg-002-a6"
+      ],
+      "prompt": "根据第2段这句，多智能体怎样扩展 test-time compute？",
+      "options": [
+        "只扩大训练数据而不改变推理",
+        "让所有任务严格一个接一个",
+        "减少所有智能体的数量",
+        "并行扩展，而非纯串行"
+      ],
+      "answer_index": 3,
+      "explanation": "该句明确对照并行与纯串行；不把效率代价或效果结论硬塞进这句。",
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s16",
+        "start": 110.52,
+        "end": 115.02,
+        "text_en": "So multi-agent is a way of scaling test-time compute in parallel instead of purely serially.",
+        "word_ids": [
+          "w-00391",
+          "w-00392",
+          "w-00393",
+          "w-00394",
+          "w-00395",
+          "w-00396",
+          "w-00397",
+          "w-00398",
+          "w-00399",
+          "w-00400",
+          "w-00401",
+          "w-00402",
+          "w-00403",
+          "w-00404",
+          "w-00405"
+        ]
+      }
+    },
+    {
+      "id": "listen-a1",
+      "type": "listening_choice",
+      "annotation_ids": [],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s09",
+        "start": 90.34,
+        "end": 93.44,
+        "text_en": "You don’t want to sit around for three years waiting for a response.",
+        "word_ids": [
+          "w-00313",
+          "w-00314",
+          "w-00315",
+          "w-00316",
+          "w-00317",
+          "w-00318",
+          "w-00319",
+          "w-00320",
+          "w-00321",
+          "w-00322",
+          "w-00323",
+          "w-00324",
+          "w-00325"
+        ]
+      },
+      "explanation": "紧接上句的「延迟瓶颈」——把思考时间无限拉长就得等很久，而人不愿干等。don’t want to sit around … waiting＝不想干等着；B、D 与原意相反，C 原文未提。",
+      "prompt": "这句话主要在表达什么？",
+      "options": [
+        "你不会愿意干坐着等三年才等来一个回复。",
+        "为了拿到最好的答案，等三年也是可以接受的。",
+        "模型的响应速度已经快到不需要等待。",
+        "大家都希望至少等满三年再拿结果。"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "listen-a3",
+      "type": "listening_choice",
+      "annotation_ids": [],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s15",
+        "start": 104.74,
+        "end": 108.42,
+        "text_en": "It helps to just have multiple agents working on something because they can go faster.",
+        "word_ids": [
+          "w-00376",
+          "w-00377",
+          "w-00378",
+          "w-00379",
+          "w-00380",
+          "w-00381",
+          "w-00382",
+          "w-00383",
+          "w-00384",
+          "w-00385",
+          "w-00386",
+          "w-00387",
+          "w-00388",
+          "w-00389",
+          "w-00390"
+        ]
+      },
+      "explanation": "It helps to have multiple agents … because they can go faster＝多个智能体协作带来速度优势；B 与原意相反；C、D 均为原文未提及的信息。",
+      "prompt": "这句话想说明什么？",
+      "options": [
+        "让多个智能体一起做同一件事有帮助，因为这样能更快。",
+        "单个智能体总是比多个智能体更快。",
+        "多智能体只有在写代码时才有用。",
+        "多智能体更快是因为单个智能体本身更强。"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "listen-a4",
+      "type": "listening_choice",
+      "annotation_ids": [],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s17",
+        "start": 115.02,
+        "end": 122.34,
+        "text_en": "It is less efficient, because it’s not like a single agent has all the context to itself.",
+        "word_ids": [
+          "w-00406",
+          "w-00407",
+          "w-00408",
+          "w-00409",
+          "w-00410",
+          "w-00411",
+          "w-00412",
+          "w-00413",
+          "w-00414",
+          "w-00415",
+          "w-00416",
+          "w-00417",
+          "w-00418",
+          "w-00419",
+          "w-00420",
+          "w-00421",
+          "w-00422"
+        ]
+      },
+      "explanation": "less efficient 对应 A 前半；because it’s not like a single agent has all the context to itself＝不像单个智能体那样独享全部上下文。B 方向相反；C 原文归因于「上下文不能独享」而非算力；D 与原句相反。",
+      "prompt": "这句在说多智能体（相对单智能体）的什么特点？",
+      "options": [
+        "效率更低，因为不像单个智能体那样独享全部上下文。",
+        "效率更高，因为多个智能体共享全部上下文。",
+        "效率低是因为算力不够。",
+        "在上下文这一点上，两者没有区别。"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "listen-b1",
+      "type": "listening_dictation",
+      "annotation_ids": [
+        "seg-002-a4"
+      ],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s07",
+        "start": 77.68,
+        "end": 85.8,
+        "text_en": "They’ll spend that time doing this monologue to themselves, figuring things out, going through different cases, ruling out different possibilities, building on some of their previous discoveries.",
+        "word_ids": [
+          "w-00270",
+          "w-00271",
+          "w-00272",
+          "w-00273",
+          "w-00274",
+          "w-00275",
+          "w-00276",
+          "w-00277",
+          "w-00278",
+          "w-00279",
+          "w-00280",
+          "w-00281",
+          "w-00282",
+          "w-00283",
+          "w-00284",
+          "w-00285",
+          "w-00286",
+          "w-00287",
+          "w-00288",
+          "w-00289",
+          "w-00290",
+          "w-00291",
+          "w-00292",
+          "w-00293",
+          "w-00294",
+          "w-00295",
+          "w-00296"
+        ]
+      },
+      "explanation": "monologue 在此指（模型）自言自语式的独白；ruling out＝排除（某种可能性）。两处均逐字取自原句。",
+      "prompt": "听原句，补全关键词。",
+      "text_with_blanks": "They’ll spend that time doing this ______ to themselves, figuring things out, going through different cases, ______ different possibilities, building on some of their previous discoveries.",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "monologue"
+          ]
+        },
+        {
+          "id": "blank-2",
+          "answers": [
+            "ruling out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-b3",
+      "type": "listening_dictation",
+      "annotation_ids": [
+        "seg-002-a5"
+      ],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s04",
+        "start": 67.6,
+        "end": 72.3,
+        "text_en": "If you’re taking the SATs and you have five minutes to go through the entire exam, you’re not going to do very well.",
+        "word_ids": [
+          "w-00228",
+          "w-00229",
+          "w-00230",
+          "w-00231",
+          "w-00232",
+          "w-00233",
+          "w-00234",
+          "w-00235",
+          "w-00236",
+          "w-00237",
+          "w-00238",
+          "w-00239",
+          "w-00240",
+          "w-00241",
+          "w-00242",
+          "w-00243",
+          "w-00244",
+          "w-00245",
+          "w-00246",
+          "w-00247",
+          "w-00248",
+          "w-00249",
+          "w-00250"
+        ]
+      },
+      "explanation": "SATs＝美国大学入学考试 SAT（此处为复数）；five minutes 与下句 five hours 形成时间对比。",
+      "prompt": "听原句，补全关键词。",
+      "text_with_blanks": "If you’re taking the ______ and you have ______ to go through the entire exam, you’re not going to do very well.",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "SATs"
+          ]
+        },
+        {
+          "id": "blank-2",
+          "answers": [
+            "five minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-b4",
+      "type": "listening_dictation",
+      "annotation_ids": [],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s18",
+        "start": 122.34,
+        "end": 128.06,
+        "text_en": "But it is a very effective way of scaling test-time compute if it’s done well.",
+        "word_ids": [
+          "w-00423",
+          "w-00424",
+          "w-00425",
+          "w-00426",
+          "w-00427",
+          "w-00428",
+          "w-00429",
+          "w-00430",
+          "w-00431",
+          "w-00432",
+          "w-00433",
+          "w-00434",
+          "w-00435",
+          "w-00436",
+          "w-00437"
+        ]
+      },
+      "explanation": "effective＝有效的；done well＝做得好（此处作条件状语）。合起来：多智能体若做得好，是扩展测试时算力的很有效方式。",
+      "prompt": "听原句，补全关键词。",
+      "text_with_blanks": "But it is a very ______ way of scaling test-time compute if it’s ______.",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "effective"
+          ]
+        },
+        {
+          "id": "blank-2",
+          "answers": [
+            "done well"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-c3",
+      "type": "listening_expression",
+      "annotation_ids": [
+        "seg-002-a3"
+      ],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s08",
+        "start": 86.78,
+        "end": 90.1,
+        "text_en": "The problem is that as you push that further and further, you hit a latency bottleneck.",
+        "word_ids": [
+          "w-00297",
+          "w-00298",
+          "w-00299",
+          "w-00300",
+          "w-00301",
+          "w-00302",
+          "w-00303",
+          "w-00304",
+          "w-00305",
+          "w-00306",
+          "w-00307",
+          "w-00308",
+          "w-00309",
+          "w-00310",
+          "w-00311",
+          "w-00312"
+        ]
+      },
+      "explanation": "hit a bottleneck＝撞上瓶颈（障碍类搭配，与 hit a wall 同义）；latency bottleneck＝延迟瓶颈。逐字取自原句 you hit a latency bottleneck。",
+      "prompt": "听原句，补全表达。",
+      "text_with_blanks": "The problem is that as you push that further and further, you ______.",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "hit a latency bottleneck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listen-c4",
+      "type": "listening_expression",
+      "annotation_ids": [
+        "seg-002-a1"
+      ],
+      "source": {
+        "segment_id": "seg-002",
+        "sentence_id": "seg-002-s01",
+        "start": 48.32,
+        "end": 64.62,
+        "text_en": "The way I think about it, when you plot the performance of these reasoning models with test-time compute on the x-axis and performance on basically any reasoning benchmark on the y-axis, you see a very clear pattern where the longer these models take to think about their answer, the better they do.",
+        "word_ids": [
+          "w-00164",
+          "w-00165",
+          "w-00166",
+          "w-00167",
+          "w-00168",
+          "w-00169",
+          "w-00170",
+          "w-00171",
+          "w-00172",
+          "w-00173",
+          "w-00174",
+          "w-00175",
+          "w-00176",
+          "w-00177",
+          "w-00178",
+          "w-00179",
+          "w-00180",
+          "w-00181",
+          "w-00182",
+          "w-00183",
+          "w-00184",
+          "w-00185",
+          "w-00186",
+          "w-00187",
+          "w-00188",
+          "w-00189",
+          "w-00190",
+          "w-00191",
+          "w-00192",
+          "w-00193",
+          "w-00194",
+          "w-00195",
+          "w-00196",
+          "w-00197",
+          "w-00198",
+          "w-00199",
+          "w-00200",
+          "w-00201",
+          "w-00202",
+          "w-00203",
+          "w-00204",
+          "w-00205",
+          "w-00206",
+          "w-00207",
+          "w-00208",
+          "w-00209",
+          "w-00210",
+          "w-00211",
+          "w-00212",
+          "w-00213",
+          "w-00214",
+          "w-00215"
+        ]
+      },
+      "explanation": "地道开场语，意为「我的理解是／依我看」，开口先亮出自己的思考框架。",
+      "prompt": "听原句，补全表达。",
+      "text_with_blanks": "______, when you plot the performance of these reasoning models with test-time compute on the x-axis…",
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answers": [
+            "The way I think about it"
+          ]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "第 1 段 · 从推理模型到多智能体",
+      "segment_ids": [
+        "seg-001"
+      ]
+    },
+    {
+      "id": "parallel",
+      "title": "第 2 段 · 思考时间与并行",
+      "segment_ids": [
+        "seg-002"
+      ]
+    }
+  ]
+}
