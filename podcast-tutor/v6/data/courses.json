@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "ep-2ea33b472344d5f8-seg001-002",
+      "title": "Noam Brown × Dwarkesh：推理与多智能体",
+      "description": "两段原声，从思考时间到并行计算。",
+      "episode_url": "data/episode.json",
+      "quiz_url": "data/quiz.json"
+    }
+  ]
+}
